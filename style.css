@@ -29,13 +29,15 @@ nav ul {
 }
   
 nav li {
+    width: 12.5%;
     float: left;
     border-right: 1px solid var(--nav-border-colour);
 }
   
 nav li a {
+    /*font-size: 20px;*/
     color: var(--nav-text);
-    padding: 12px 15px;
+    padding: 12px 0px;
     display: block;
     text-align: center;
     text-decoration: none;
