@@ -1,23 +1,58 @@
+:root {
+    --border-colour: white;
+    --nav-colour: black;
+    --nav-selected: white;
+    --nav-text: white;
+    --nav-text-selected: black;
+}
 
 * {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
 }
-ul {
-    display: flex;
-    flex-direction: row;
-     }
+
+
+nav {
+    width: auto;
+    margin: auto;
+}
+  
+nav ul {
+    background-color: var(--nav-colour);
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: auto;
+    border-top: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--border-colour);
+}
+  
+nav li {
+    float: left;
+    border-right: 1px solid var(--border-colour);
+}
+  
+nav li:first-child {
+    border-left: 1px solid var(--border-colour);
+}
+  
+nav li a {
+    color: var(--nav-text);
+    padding: 12px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+  
+nav li a:hover{
+    color: var(--nav-text-selected);
+    background-color: var(--nav-selected);
+}
     
-    li > a{
-        text-decoration: none;
-        color: #fff;
-        font-size: 0.9rem;
-        font-weight: 500;
-    }
-    #nav {margin: auto}
-    #main{background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
+#main{background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
         background-repeat: no-repeat;}
-    #tblock{background-color:rgba(220, 220, 220, 0.8)
+#tblock{background-color:rgba(220, 220, 220, 0.8)
             }
     
