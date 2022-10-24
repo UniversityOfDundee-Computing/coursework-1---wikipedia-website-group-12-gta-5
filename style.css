@@ -1,9 +1,9 @@
 :root {
-    --border-colour: white;
-    --nav-colour: black;
-    --nav-selected: white;
-    --nav-text: white;
-    --nav-text-selected: black;
+    --nav-border-colour: black;
+    --nav-colour: rgba(255, 255, 255, 0.5);
+    --nav-selected: black;
+    --nav-text: black;
+    --nav-text-selected:rgba(255, 255, 255, 0.5);
 }
 
 * {
@@ -25,17 +25,17 @@ nav ul {
     padding: 0;
     overflow: hidden;
     width: auto;
-    border-top: 1px solid var(--border-colour);
-    border-bottom: 1px solid var(--border-colour);
+    border-top: 1px solid var(--nav-border-colour);
+    border-bottom: 1px solid var(--nav-border-colour);
 }
   
 nav li {
     float: left;
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--nav-border-colour);
 }
   
 nav li:first-child {
-    border-left: 1px solid var(--border-colour);
+    border-left: 1px solid var(--nav-border-colour);
 }
   
 nav li a {
