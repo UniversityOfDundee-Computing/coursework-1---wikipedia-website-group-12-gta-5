@@ -4,6 +4,7 @@
     --nav-selected: black;
     --nav-text: black;
     --nav-text-selected:rgba(255, 255, 255, 0.5);
+    --nav-item-width: 12.5%;
 }
 
 * {
@@ -29,13 +30,12 @@ nav ul {
 }
   
 nav li {
-    width: 12.5%;
+    width: var(--nav-item-width);
     float: left;
     border-right: 1px solid var(--nav-border-colour);
 }
   
 nav li a {
-    /*font-size: 20px;*/
     color: var(--nav-text);
     padding: 12px 0px;
     display: block;
