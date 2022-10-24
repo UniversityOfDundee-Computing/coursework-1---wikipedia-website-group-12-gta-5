@@ -25,17 +25,12 @@ nav ul {
     padding: 0;
     overflow: hidden;
     width: auto;
-    border-top: 1px solid var(--nav-border-colour);
-    border-bottom: 1px solid var(--nav-border-colour);
+    border: 1px solid var(--nav-border-colour);
 }
   
 nav li {
     float: left;
     border-right: 1px solid var(--nav-border-colour);
-}
-  
-nav li:first-child {
-    border-left: 1px solid var(--nav-border-colour);
 }
   
 nav li a {
