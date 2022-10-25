@@ -50,6 +50,10 @@ nav li a:hover{
     
 #main{background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
         background-repeat: no-repeat;}
-#tblock{background-color:rgba(220, 220, 220, 0.8)
-            }
+#pdiv {text-align: center;
+            margin-left:200px;
+        margin-right:200px;}
+  #pspan{background-color:rgba(220, 220, 220, 0.8);
+        }
+    
     
