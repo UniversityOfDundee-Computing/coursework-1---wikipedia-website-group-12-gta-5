@@ -49,11 +49,17 @@ nav li a:hover{
 }
 
 
-body{background-color: #ecc606;}
+body{margin-left: 50%;}
 section{ 
 
     max-width: 720px;
     background-color: rgb(255, 3, 3);
-    margin: auto;}
+    margin: 50%;}
     
     body{ border-left: 1000px;} 
+
+    #main{background-color: #ecc606;
+        margin-left: 15%;    
+    margin-right: 15%;     
+margin-bottom: 1%;                  }
+
