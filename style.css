@@ -47,13 +47,20 @@ nav li a:hover{
     color: var(--nav-text-selected);
     background-color: var(--nav-selected);
 }
-    
-#main{background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
-        background-repeat: no-repeat;}
-#pdiv {text-align: center;
-            margin-left:200px;
-        margin-right:200px;}
-  #pspan{background-color:rgba(220, 220, 220, 0.8);
-        }
+#main-dev {
+    background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load3.png');
+}
+#main { 
+    background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
+    background-repeat: no-repeat;
+}
+#pdiv {
+    text-align: center;
+    margin-left:200px;
+    margin-right:200px;
+}
+#pspan {
+    background-color:rgba(220, 220, 220, 0.8);
+}
     
     
