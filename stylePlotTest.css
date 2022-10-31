@@ -1,0 +1,50 @@
+#Rimg {
+    height: 46px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa500;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+
+
+#ImgListNav {
+    float: right;
+}
+
+body {
+    background-image: url("img/Gtaback.jpg");
+    background-size: auto;
+    background-color: #cccccc;
+}
+
+#mainplotbox, #settingbox {
+    width:70%;
+    margin-left: 13%;
+    margin-right:13%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border: 10px solid #646768;
+    background-color: #b0b4b6;
+    opacity: 0.8;
+}
