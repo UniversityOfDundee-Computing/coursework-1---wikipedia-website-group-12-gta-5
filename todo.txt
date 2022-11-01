@@ -9,3 +9,4 @@ add css nav bar on colour switch
 centre the hint box
 add arrow on side for scrolling? use css and html smooth scroll option
 nav bar link pages together
+fix nav bar margin
