@@ -1,6 +1,7 @@
-* {
-    color: white;
-}
+.primary-nav {
+    background-color: orange ;
+  }
+
 
 
 #child1,
@@ -24,11 +25,6 @@
     height: 46px;
 }
 
-ul,
-nav,
-#container-fluid {
-    background-color: #ffa500;
-}
 
 li {
     float: left;
