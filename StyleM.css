@@ -1,0 +1,42 @@
+#child1, #child2, #child3{
+    background-color: red;
+    width:200px;
+    height:200px;
+    margin-top:10px;
+    margin-bottom:10px;
+  
+  }
+  #fatherD{
+    background-color: black;
+    height:220px;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  #Rimg {
+    height: 46px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa500;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
