@@ -1,27 +1,32 @@
-#child1, #child2, #child3{
-    background-color: red;
-    width:200px;
-    height:200px;
-    margin-top:10px;
-    margin-bottom:10px;
-  
-  }
-  #fatherD{
-    background-color: black;
-    height:220px;
-    display:flex;
-    justify-content: space-evenly;
-  }
-  #Rimg {
-    height: 46px;
-    float: right;
+* {
+    color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+#child1,
+#child2,
+#child3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#fatherD {
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Rimg {
+    height: 46px;
+}
+
+ul,
+nav,
+#container-fluid {
     background-color: #ffa500;
 }
 
@@ -39,4 +44,18 @@ li a {
 
 li a:hover {
     background-color: #F09E71;
+}
+
+.BackgroundCss {
+    background-image: url("img/GtaBack2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
 }
