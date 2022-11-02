@@ -56,3 +56,20 @@ body, html {
     width: 100%;
     margin: 0px;
 }
+
+#michael, #trevor, #franklin{
+    height: 327px;
+    width:280px;
+    border:black 10px solid;
+    margin:1px;
+}
+
+#michael{
+    background-color: #cae1b1;
+}
+#trevor{
+    background-color: #82b5c7;
+}
+#franklin{
+ background-color: #F6d270;
+}
