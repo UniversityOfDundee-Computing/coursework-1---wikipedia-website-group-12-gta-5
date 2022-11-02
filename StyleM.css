@@ -13,6 +13,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 
+
 }
 
 #fatherD {
@@ -20,6 +21,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
+    flex-direction:row;
 }
 
 #Rimg {
@@ -76,5 +78,22 @@ body, html {
 }
 
 @media (max-width: 959px) {
-    
+    #fatherD{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        height: 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #child1, #child2, #child3{
+        margin-left:auto;
+        margin-right:auto;
+    }     
+
+
+
+
+
 }
