@@ -58,10 +58,9 @@ body, html {
 }
 
 #michael, #trevor, #franklin{
-    height: 327px;
+    height:327px;
     width:280px;
     border:black 10px solid;
-    margin:1px;
 }
 
 #michael{
@@ -69,7 +68,13 @@ body, html {
 }
 #trevor{
     background-color: #82b5c7;
+    height:327px;
+    width:280px;
 }
 #franklin{
  background-color: #F6d270;
+}
+
+@media (max-width: 959px) {
+    
 }
