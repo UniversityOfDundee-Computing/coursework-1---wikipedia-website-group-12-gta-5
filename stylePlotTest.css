@@ -1,0 +1,115 @@
+#Rimg {
+    height: 46px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa500;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+
+
+#ImgListNav {
+    float: right;
+}
+
+body {
+    background-color: #cccccc;
+    color:black;
+}
+
+#mainplotbox, #settingbox {
+    width:100%;
+    background-color: #b0b4b6;
+    opacity: 0.8;
+    display: inline-block;
+}
+#daddyBox{
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+p{
+    margin-right:1%;
+    margin-left:1%;
+}
+body, html {
+    height: 100%;
+    width:100%;
+    margin:0px;
+}
+  
+#body {
+    background-image: url("img/Gtaback.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ndMContainer{
+    margin-top:10%;
+    margin-bottom:20%;
+    width:90%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#MichealImg, #TrevorImg, #FranklinImg{
+    height: 100%;
+    width:100%;
+}
+#hint{
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: white;
+    height:18px;
+    width:auto;
+}
+
+#body2 {
+    background-image: url("img/GtaBack2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#michael, #trevor, #franklin{
+    height: 327px;
+    width:280px;
+    border:black 10px solid;
+}
+
+#michael{
+    background-color: #cae1b1;
+    
+
+}
+#trevor{
+    background-color: #82b5c7;
+}
+#franklin{
+ background-color: #F6d270;
+}
+* {
+    font-family:'Times New Roman', Times, serif;
+}
