@@ -1,3 +1,4 @@
+FIX DIV SPACING
 add css animation on the plot page
 add more charecters on the charecter page
 add footers
