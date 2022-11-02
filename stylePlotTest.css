@@ -110,3 +110,6 @@ body, html {
 #franklin{
  background-color: #F6d270;
 }
+* {
+    font-family:'Times New Roman', Times, serif;
+}
