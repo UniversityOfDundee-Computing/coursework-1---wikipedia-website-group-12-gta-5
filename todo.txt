@@ -1,4 +1,4 @@
-FIX DIV SPACING
+FIX DIV SPACING on plot page.
 add css animation on the plot page
 add more charecters on the charecter page
 add footers
@@ -12,3 +12,5 @@ add arrow on side for scrolling? use css and html smooth scroll option
 nav bar link pages together
 fix nav bar margin
 fix andrew nav bar
+fix cieren
+potential carasoul on main page?
