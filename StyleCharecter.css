@@ -1,0 +1,138 @@
+.primary-nav {
+    background-color: #FFa500 ;
+  }
+
+
+
+#child1,
+#child2,
+#child3 {
+    background-color: red;
+    width: 280px;
+    height: 327px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#fatherD {
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin-top: 5%;
+    max-height: 100%;
+}
+
+#Rimg {
+    height: 46px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+
+.BackgroundCss {
+    background-image: url("img/GtaBack2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#michael, #trevor, #franklin{
+    height:327px;
+    width:280px;
+    border:black 10px solid;
+}
+
+#michael{
+    background-color: #cae1b1;
+}
+#trevor{
+    background-color: #82b5c7;
+    height:327px;
+    width:280px;
+}
+#franklin{
+ background-color: #F6d270;
+}
+
+@media (max-width: 959px) {
+    #fatherD{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        height: 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #child1, #child2, #child3,#TrevorTBox1,#TrevorTBox2,#TrevorTBox3{
+        margin-left:auto;
+        margin-right:auto;
+
+    }     
+
+}
+
+
+#TrevorTBox1, #TrevorTBox2, #TrevorTBox3{
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: #82b5c7;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+#TrevorImgOpenTab{
+    animation: backInRight 2s;
+}
+
+#MichaelTBox1, #MichaelTBox2, #MichaelTBox3{
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: #cae1b1;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+#MichaelImgOpenTab{
+    animation: backInRight 2s;
+}
+#FranklinTBox1, #FranklinTBox2, #FranklinTBox3{
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: #F6d270;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+#FranklinImgOpenTab{
+    animation: backInRight 2s;
+}
+
+h2{
+    margin-bottom:3px;
+}
