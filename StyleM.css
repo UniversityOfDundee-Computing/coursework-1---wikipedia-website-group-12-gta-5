@@ -119,6 +119,8 @@ body, html {
     display:none;
     height:327px;
     width:280px;
-    background-color: red;
+    background-color: #82b5c7;
+    animation: backInRight;
+    animation-duration: 2s;
 
 }
