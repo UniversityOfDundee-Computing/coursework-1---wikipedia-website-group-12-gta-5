@@ -34,3 +34,11 @@ body, html {
     width: 100%;
     margin: 0px;
 }
+#daddyBox{
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: grey;
+    opacity:0.8;
+
+}
