@@ -1,7 +1,26 @@
 .primary-nav {
     background-color: #FFa500 ;
   }
+  #Rimg {
+    height: 46px;
+}
 
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
 
 
 #child1,
@@ -24,27 +43,6 @@
     flex-direction:row;
     margin-top: 5%;
     max-height: 100%;
-}
-
-#Rimg {
-    height: 46px;
-}
-
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #F09E71;
 }
 
 .BackgroundCss {
