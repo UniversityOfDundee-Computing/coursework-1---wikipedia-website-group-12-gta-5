@@ -21,3 +21,11 @@ li a {
 li a:hover {
     background-color: #F09E71;
 }
+
+.BackgroundCss {
+    background-image: url("img/GtaBack.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
