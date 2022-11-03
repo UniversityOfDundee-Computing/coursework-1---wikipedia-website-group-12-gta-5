@@ -8,8 +8,8 @@
 #child2,
 #child3 {
     background-color: red;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 327px;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -22,6 +22,7 @@
     justify-content: space-evenly;
     flex-wrap:wrap;
     flex-direction:row;
+    margin-top: 5%;
 }
 
 #Rimg {
@@ -92,8 +93,26 @@ body, html {
         margin-right:auto;
     }     
 
+}
+
+@media (max-width: 1583px;){
+    #TrevorText{
+    overflow:scroll
+}
 
 
 
+
+
+
+
+}
+
+
+#TrevorText{
+    width:60%;
+    height:auto;
+    background-color: #82b5c7;
+    margin-left:5%;
 
 }
