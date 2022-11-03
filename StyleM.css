@@ -122,5 +122,8 @@ body, html {
     background-color: #82b5c7;
     animation: backInRight;
     animation-duration: 2s;
-
+}
+#TrevorImgOpenTab{
+    animation: backInRight;
+    animation-duration: 2s;
 }
