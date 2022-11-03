@@ -100,14 +100,7 @@ body, html {
 
 
 
-#TrevorText{
-    width:60%;
-    height:auto;
-    background-color: #82b5c7;
-    margin-left:5%;
-    overflow:scroll;
 
-}
 #TrevorTBox1, #TrevorTBox2, #TrevorTBox3{
     display:none;
     height:327px;
@@ -118,4 +111,19 @@ body, html {
 }
 #TrevorImgOpenTab{
     animation: backInRight 2s;
+}
+
+#MichaelTBox1, #MichaelTBox2, #MichaelTBox3{
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: #82b5c7;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+#MichaelImgOpenTab{
+    animation: backInRight 2s;
+}
+h2{
+    margin-bottom:3px;
 }
