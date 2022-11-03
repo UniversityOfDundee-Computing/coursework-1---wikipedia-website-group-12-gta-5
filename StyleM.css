@@ -92,6 +92,7 @@ body, html {
     #child1, #child2, #child3{
         margin-left:auto;
         margin-right:auto;
+        animation: BackOutLeft 2s; 
     }     
 
 }
@@ -124,6 +125,5 @@ body, html {
     animation-duration: 2s;
 }
 #TrevorImgOpenTab{
-    animation: backInRight;
-    animation-duration: 2s;
+    animation: backInRight 2s;
 }
