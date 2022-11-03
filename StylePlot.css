@@ -28,6 +28,8 @@ li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 body, html {
     height: 100%;
@@ -41,8 +43,4 @@ body, html {
     background-color: grey;
     opacity:0.8;
 
-}
-*{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
 }
