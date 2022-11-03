@@ -124,6 +124,18 @@ body, html {
 #MichaelImgOpenTab{
     animation: backInRight 2s;
 }
+#FranklinTBox1, #FranklinTBox2, #FranklinTBox3{
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: #82b5c7;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+#FranklinImgOpenTab{
+    animation: backInRight 2s;
+}
+
 h2{
     margin-bottom:3px;
 }
