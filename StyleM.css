@@ -116,7 +116,9 @@ body, html {
 
 }
 #TrevorTBox1, #TrevorTBox2, #TrevorTBox3{
-    display:none;height:327px;width:280px;background-color: red;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+    display:none;
+    height:327px;
+    width:280px;
+    background-color: red;
+
 }
