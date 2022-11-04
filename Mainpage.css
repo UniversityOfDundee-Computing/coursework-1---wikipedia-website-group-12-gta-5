@@ -58,8 +58,8 @@ p{
 #titlewrapper{
     padding-top:2%; 
     display:flex;
-    justify-content: center;
-    height:auto%;
+    justify-content:center;
+    height:auto;
     padding-bottom:20px;
 }
 #FatherBox{
