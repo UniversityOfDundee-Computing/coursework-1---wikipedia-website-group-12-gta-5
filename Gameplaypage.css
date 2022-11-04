@@ -53,13 +53,21 @@ body {
 }
 
 #main {
-    min-height: 100%;
-    background-image: url(https://getwallpapers.com/wallpaper/full/f/8/9/1127319-free-download-grand-theft-auto-wallpaper-2880x1800-for-retina.jpg);
-    background-size: contain;
-    background-repeat: repeat;
-    margin: 0px;
+    background-image: url(img/GtaBack3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:#FFFF;
 }
 
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
 
 #tblock {
     background-color: rgba(220, 220, 220, 0.8)

@@ -59,3 +59,6 @@ function FCloseTab(){
     document.getElementById("FranklinTBox2").style.display = "none"
     document.getElementById("FranklinTBox3").style.display = "none"
 }
+document.getElementById("PlotButton").onclick = function () {
+    location.href = "Plot.html";
+};
