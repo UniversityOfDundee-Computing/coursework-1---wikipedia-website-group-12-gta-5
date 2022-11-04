@@ -1,0 +1,47 @@
+.primary-nav {
+    background-color: #FFa500 ;
+  }
+  #Rimg {
+    height: 46px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+.BackgroundCss {
+    background-image: url("img/GtaBackMainpage.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:#FFFF;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#daddyBox{
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: grey;
+    opacity:0.8;
+
+}
