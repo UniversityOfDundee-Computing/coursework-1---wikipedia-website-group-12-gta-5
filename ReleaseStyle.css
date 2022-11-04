@@ -81,3 +81,6 @@ body, html {
     padding:5px;
 
 }
+.container-fluid{
+    padding-left:12px;
+}
