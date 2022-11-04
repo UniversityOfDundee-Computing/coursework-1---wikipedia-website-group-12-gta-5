@@ -29,10 +29,10 @@ li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     color:#FFFF;
 }
-
 body, html {
     height: 100%;
     width: 100%;
