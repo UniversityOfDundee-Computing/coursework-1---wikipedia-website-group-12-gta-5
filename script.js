@@ -67,3 +67,10 @@ function TextDisplay(){
 document.getElementById("Page1Text").style.display = "block";
 document.getElementById("CarosualMain").style.display = "none";
 }
+function RemoveSpoiler(){
+    document.getElementById("SpoilerWarning").style.display = "none"
+    document.getElementById("PageContent").style.display = "block"
+}
+function message() {
+    location.href = 'https://www.youtube.com/watch?v=eBGIQ7ZuuiU';
+}

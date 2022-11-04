@@ -37,12 +37,22 @@ body, html {
     width: 100%;
     margin: 0px;
 }
-#daddyBox{
+#settingbox,#mainplotbox{
     width:70%;
     margin-left: 15%;
     margin-right:15%;
-    background-color: #b0b4b6;
+    background-color: #3c353b;
     opacity:0.8;
     border-radius: 15px;
 
+}
+#headWrapper{
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    max-height: 509px;
+    padding-bottom:8px;
+}
+*{
+    text-align: center;
 }
