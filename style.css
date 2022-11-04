@@ -90,4 +90,7 @@ li.current {
     float: right;
 
 }
-/* test */
+
+#main-dev {
+    background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load3.png');
+}
