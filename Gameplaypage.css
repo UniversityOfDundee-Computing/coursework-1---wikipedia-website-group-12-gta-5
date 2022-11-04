@@ -39,3 +39,7 @@ body, html {
     margin: 0px;
 }
 
+#headWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
