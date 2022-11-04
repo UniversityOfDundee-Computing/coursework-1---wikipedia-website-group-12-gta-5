@@ -40,6 +40,9 @@ body, html {
 }
 
 #headWrapper{
+    padding-top:10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    max-height: 509px;
+    padding-bottom:8px;
 }
