@@ -56,6 +56,7 @@ body, html {
     padding:5px;
     text-align: center;
     height:auto;
+    animation: backInLeft 2s ;
 }
 /* fixing the css for the nav bar */
 .nav-link{
@@ -66,9 +67,6 @@ body, html {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-#CarosualMain{
-    background-color: #d0d7ae;
-}
 .carousel {
     width:1280px;
     height:720px;

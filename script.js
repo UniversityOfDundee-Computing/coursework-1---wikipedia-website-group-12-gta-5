@@ -59,6 +59,11 @@ function FCloseTab(){
     document.getElementById("FranklinTBox2").style.display = "none"
     document.getElementById("FranklinTBox3").style.display = "none"
 }
-document.getElementById("PlotButton").onclick = function () {
-    location.href = "Plot.html";
-};
+function CaroDisplay(){
+document.getElementById("Page1Text").style.display = "none";
+document.getElementById("CarosualMain").style.display = "block";
+}
+function TextDisplay(){
+document.getElementById("Page1Text").style.display = "block";
+document.getElementById("CarosualMain").style.display = "none";
+}
