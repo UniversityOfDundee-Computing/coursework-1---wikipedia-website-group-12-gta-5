@@ -24,7 +24,7 @@ li a:hover {
 }
 
 #main {
-    background-image: url(img/GtaBack3.jpg);
+    background-image:url("img/GTABack3.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
