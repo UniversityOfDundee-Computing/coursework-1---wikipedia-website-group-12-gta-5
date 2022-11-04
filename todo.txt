@@ -1,0 +1,17 @@
+FIX DIV SPACING on plot page.
+add css animation on the plot page
+add more charecters on the charecter page
+add footers
+add hyperlinks to names
+remove the transparency of the main titles in box
+get a new font
+maybe have a main title page?
+add css nav bar on colour switch
+centre the hint box
+add arrow on side for scrolling? use css and html smooth scroll option
+nav bar link pages together
+fix nav bar margin
+fix andrew nav bar
+fix cieren
+potential carasoul on main page?
+Add Animation For Divs (with dD)
