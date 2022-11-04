@@ -45,10 +45,12 @@ body, html {
     width:70%;
     margin-left: 15%;
     margin-right:15%;
-    background-color: grey;
+    background-color: #fc9c5b;
     opacity:0.8;
-    height: 50%;
-
+    height:auto;
+}
+p{
+    margin-bottom:0px;
 }
 #titlewrapper{
     padding-top:2%; 
@@ -57,10 +59,10 @@ body, html {
     height:20%;
 }
 #FatherBox{
-    background-color: red;
     height:30%;
     display:flex;
     justify-content: space-evenly;
+    padding-top: 2%;
 }
 #child1,#child2,#child3,#child4{
     height:90%;
