@@ -1,7 +1,8 @@
 .primary-nav {
-    background-color: #FFa500 ;
-  }
-  #Rimg {
+    background-color: #FFa500;
+}
+
+#Rimg {
     height: 46px;
 }
 
@@ -29,52 +30,63 @@ li a:hover {
 }
 
 
-body{margin-left: 50%;}
-section{ 
+body {
+    margin-left: 50%;
+}
+
+section {
 
     max-width: 720px;
     background-color: rgb(255, 3, 3);
-    margin: 50%;}
-    
-    body{ border-left: 1000px;} 
+    margin: 50%;
+}
 
-    #main{background-color: #dbe5b8;
-        margin-left: 15%;    
-    margin-right: 15%;     
-margin-bottom: 1%;                  }
+body {
+    border-left: 1000px;
+}
 
-#main{
+#main {
+    background-color: #dbe5b8;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+}
+
+#main {
     min-height: 100%;
-     background-image: url(https://getwallpapers.com/wallpaper/full/f/8/9/1127319-free-download-grand-theft-auto-wallpaper-2880x1800-for-retina.jpg);
-     background-size: contain;
-     background-repeat: repeat;
-    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://getwallpapers.com/wallpaper/full/f/8/9/1127319-free-download-grand-theft-auto-wallpaper-2880x1800-for-retina.jpg);
+    background-size: contain;
+    background-repeat: repeat;
     margin: 0px;
-    }
-    
-     
-     #tblock{background-color:rgba(220, 220, 220, 0.8)
-     }
-
-     main{
-
-        margin-left: 100px;
-        color: blue;
-     }
+}
 
 
-#pdiv {text-align: center;
+#tblock {
+    background-color: rgba(220, 220, 220, 0.8)
+}
 
-    margin-left:150px;
+main {
 
-margin-right:150px;}
+    margin-left: 100px;
+    color: blue;
+}
 
-#pspan{background-color:rgba(220, 220, 220, 0.8);
+
+#pdiv {
+    text-align: center;
+
+    margin-left: 150px;
+
+    margin-right: 150px;
+}
+
+#pspan {
+    background-color: rgba(220, 220, 220, 0.8);
 
 }
 
-h1{
+h1 {
 
-margin-left: 510px;
+    margin-left: 510px;
 
 }
