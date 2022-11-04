@@ -1,7 +1,7 @@
 .primary-nav {
     background-color: #FFa500 ;
-  }
-  #Rimg {
+}
+#Rimg {
     height: 46px;
 }
 
@@ -20,4 +20,20 @@ li a {
 
 li a:hover {
     background-color: #F09E71;
+}
+.BackgroundCss {
+    background-image: url("img/GTAback4.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:#FFFF;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
 }
