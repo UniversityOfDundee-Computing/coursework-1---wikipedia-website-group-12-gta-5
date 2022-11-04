@@ -1,51 +1,40 @@
-:root {
-    --nav-border-colour: black;
-    --nav-colour: rgba(255, 255, 255, 0.5);
-    --nav-selected: black;
-    --nav-text: black;
-    --nav-text-selected:rgba(255, 255, 255, 0.5);
-    --nav-item-width: 12.5%;
-}
-
-* {
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-
-nav {
-    width: auto;
-    margin: auto;
-}
-  
-nav ul {
-    background-color: var(--nav-colour);
+ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
-    width: auto;
-    border: 1px solid var(--nav-border-colour);
+    background-color: #ffa500;
 }
-  
-nav li {
-    width: var(--nav-item-width);
+
+
+
+li {
     float: left;
-    border-right: 1px solid var(--nav-border-colour);
 }
-  
-nav li a {
-    color: var(--nav-text);
-    padding: 12px 0px;
+
+
+
+li a {
     display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+ 
 }
-  
-nav li a:hover{
-    color: var(--nav-text-selected);
-    background-color: var(--nav-selected);
+
+
+
+li a:hover {
+    background-color: #F09E71;
+    
+}
+
+
+
+
+#ImgListNav {
+    float: right;
 }
 
 
@@ -58,9 +47,43 @@ section{
     
     body{ border-left: 1000px;} 
 
-    #main{background-color: #ecc606;
+    #main{background-color: #dbe5b8;
         margin-left: 15%;    
     margin-right: 15%;     
 margin-bottom: 1%;                  }
 
+#main{
+    min-height: 100%;
+     background-image: url(https://getwallpapers.com/wallpaper/full/f/8/9/1127319-free-download-grand-theft-auto-wallpaper-2880x1800-for-retina.jpg);
+     background-size: contain;
+     background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    }
+    
+     
+     #tblock{background-color:rgba(220, 220, 220, 0.8)
+     }
 
+     main{
+
+        margin-left: 100px;
+        color: blue;
+     }
+
+
+#pdiv {text-align: center;
+
+    margin-left:150px;
+
+margin-right:150px;}
+
+#pspan{background-color:rgba(220, 220, 220, 0.8);
+
+}
+
+h1{
+
+margin-left: 510px;
+
+}
