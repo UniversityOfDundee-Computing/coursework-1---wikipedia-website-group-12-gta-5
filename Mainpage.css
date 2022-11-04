@@ -43,10 +43,25 @@ body, html {
     margin-right:15%;
     background-color: grey;
     opacity:0.8;
+    height: 50%;
 
 }
 #titlewrapper{
     padding-top:2%; 
     display:flex;
     justify-content: center;
+    height:20%;
+}
+#FatherBox{
+    background-color: red;
+    height:30%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#child1,#child2,#child3,#child4{
+    height:90%;
+    padding-bottom:5%;
+    padding-top:5%;
+    background-color: green;
+    width:280px;
 }
