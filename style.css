@@ -48,8 +48,21 @@ nav li a:hover{
     background-color: var(--nav-selected);
 }
     
-#main{background-image: url('https://www.gtaboom.com/wp-content/uploads/2016/02/load.png');
-        background-repeat: no-repeat;}
-#tblock{background-color:rgba(220, 220, 220, 0.8)
+#main{
+    background-image: url("img/Gtaback.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main2{
+    background-image: url("img/Gtaback.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tblock{
+    background-color:rgba(220, 220, 220, 0.8)
             }
     
