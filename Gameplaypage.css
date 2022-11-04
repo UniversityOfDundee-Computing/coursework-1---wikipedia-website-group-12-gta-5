@@ -70,4 +70,7 @@ body, html {
 .carousel {
     width:1280px;
     height:720px;
-  }
+}
+  .container-fluid{
+    padding-left:12px;
+}
