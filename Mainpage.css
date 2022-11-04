@@ -1,0 +1,109 @@
+.primary-nav {
+    background-color: #FFa500 ;
+
+  }
+#textC{
+    color:black ; 
+  }
+  #Rimg {
+    height: 46px;
+}
+p{
+    padding:10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+.BackgroundCss {
+    background-image: url("img/GtaBackMainpage.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:#FFFF;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+#daddyBox{
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: #fc9c5b;
+    opacity:0.8;
+    height:auto;
+    border-radius: 15px;
+}
+p{
+    margin-bottom:0px;
+}
+#titlewrapper{
+    padding-top:2%; 
+    display:flex;
+    justify-content:center;
+    height:auto;
+    padding-bottom:20px;
+}
+#FatherBox{
+    height:auto;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+#child1,#child2,#child3,#child4{
+    height:240px;
+    background-color: green;
+    width:280px;
+    animation: backInLeft 2s;
+    border-radius: 15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+/* fixing the css for the nav bar */
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.LearnMoreButton{
+    height:50px;
+    width:90px;
+    background-color: grey;
+    border: 2px black solid;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom:5px ;
+    
+}
+a{
+    text-decoration: none;
+}
+h2{
+    padding:10px;
+}
