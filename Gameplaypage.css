@@ -46,3 +46,26 @@ body, html {
     max-height: 509px;
     padding-bottom:8px;
 }
+#maintext{
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: #4b4842;
+    opacity:0.8;
+    border-radius: 15px;
+    padding:5px;
+    text-align: center;
+    height:auto;
+}
+/* fixing the css for the nav bar */
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+#CarosualMain{
+    background-color: #d0d7ae;
+}
