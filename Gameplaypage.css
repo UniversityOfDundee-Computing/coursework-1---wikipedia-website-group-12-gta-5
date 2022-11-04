@@ -69,3 +69,7 @@ body, html {
 #CarosualMain{
     background-color: #d0d7ae;
 }
+.carousel {
+    width:1280px;
+    height:720px;
+  }
