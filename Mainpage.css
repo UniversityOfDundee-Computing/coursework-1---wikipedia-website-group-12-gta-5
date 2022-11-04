@@ -68,7 +68,7 @@ p{
     justify-content: space-evenly;
     padding-top: 2%;
 }
-#child1,#child2,#child3,#child4{
+#child1,#child2,#child3,#child4,#child5{
     height:240px;
     background-color: green;
     width:280px;
