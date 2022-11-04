@@ -1,0 +1,83 @@
+.primary-nav {
+    background-color: #FFa500;
+}
+
+#Rimg {
+    height: 46px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F09E71;
+}
+
+#main {
+    background-image:url("img/GtaBack5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color:#FFFF;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#headWrapper{
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    max-height: 509px;
+    padding-bottom:8px;
+}
+#maintext{
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: #af516e;
+    opacity:0.8;
+    border-radius: 15px;
+    padding:5px;
+    text-align: center;
+    height:auto;
+    animation: backInUp 2s ;
+}
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.Row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Box{
+    width:50%;
+    height:auto;
+    border-bottom:#e86b6f 2px solid;
+    height:auto;
+}
+.Box > p{
+    margin-bottom:0px;
+    padding:5px;
+
+}
