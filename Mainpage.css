@@ -1,5 +1,9 @@
 .primary-nav {
     background-color: #FFa500 ;
+
+  }
+#textC{
+    color:black ; 
   }
   #Rimg {
     height: 46px;
@@ -64,4 +68,12 @@ body, html {
     padding-top:5%;
     background-color: green;
     width:280px;
+}
+/* fixing the css for the nav bar */
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
